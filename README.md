@@ -1,1 +1,5 @@
-# FinTech-Lab-Programming-Task
+This repository contains the source code for a programming task for the FinTech Lab. This project creates a GUI that allows a user to enter in a company's ticker and see a graph of the net incomes per year for the given company from 1995 - 2023. The library used for the GUI was Streamlit. In order to generate information from the data, the Google Gemini 1.5 Pro API was used. Data visualizations were created using Matplotlib. 10-K filings for a given company were accessed through the use of the sec-edgar-downloader library.
+
+Tech Stack: Python using the Streamlit, Matplotlib, and sec-edgar-downloader libraries as well as the Google Gemini 1.5 Pro API
+
+Reason for choosing net incomes: seeing trends in net income is important because it indicates if a company is doing well or poorly, which projects the direction of their stock. If a company has seen upward trajectories in their net income, then their stock will likely rise over the next few years. Conversely, if net incomes have been stagnant or on a downward trajectory, then the company's stock will likely fall in the next few years.
